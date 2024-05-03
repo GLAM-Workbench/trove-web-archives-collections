@@ -1,0 +1,203 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2024-05-03",
+            "description": "This dataset contains details of the subject and collection groupings used by Pandora to organise archived web resource titles.",
+            "distribution": {
+                "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections/archive/refs/heads/main.zip"
+            },
+            "hasPart": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb"
+                },
+                {
+                    "@id": "pandora-subjects.ndjson"
+                },
+                {
+                    "@id": "pandora-collections.ndjson"
+                }
+            ],
+            "isBasedOn": {
+                "@id": "https://github.com/GLAM-Workbench/trove-web-archives/"
+            },
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-web-archives/pandora-collections-data"
+            },
+            "name": "trove-web-archives-collections",
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections",
+            "workExample": []
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests Pandora's navigation hierarchy, saving the connections between subjects, collections, and titles. The datasets created can be used to assemble subject-based collections of archived websites for research.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
+            },
+            "name": "Harvest Pandora subjects and collections",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "pandora-subjects.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 1901413,
+            "dateModified": "2024-05-02",
+            "name": "pandora-subjects.ndjson",
+            "sdDatePublished": "2024-05-03",
+            "size": 149,
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-subjects.ndjson"
+        },
+        {
+            "@id": "pandora-collections.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 844738,
+            "dateModified": "2024-05-02",
+            "name": "pandora-collections.ndjson",
+            "sdDatePublished": "2024-05-03",
+            "size": 1920,
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": "https://timsherratt.au",
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "@type": "Dataset",
+            "name": "trove-web-archives",
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections/archive/refs/heads/main.zip",
+            "@type": "DataDownload",
+            "name": "Download repository as zip",
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/archive/refs/heads/main.zip"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "@type": "CreativeWork",
+            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+            "name": "No Known Copyright",
+            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "@type": "CreativeWork",
+            "description": "The copyright and related rights status of this Item has not been evaluated.",
+            "name": "Copyright Not Evaluated",
+            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest pandora subject collections",
+            "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
+        },
+        {
+            "@id": "#harvest-pandora-subject-collections_run_0",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-05-02",
+            "instrument": {
+                "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb"
+            },
+            "name": "Run of notebook: harvest-pandora-subject-collections.ipynb",
+            "result": [
+                {
+                    "@id": "pandora-subjects.ndjson"
+                },
+                {
+                    "@id": "pandora-collections.ndjson"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-web-archives/pandora-collections-data",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Pandora collections data",
+            "url": "https://glam-workbench.net/trove-web-archives/pandora-collections-data"
+        }
+    ]
+}
