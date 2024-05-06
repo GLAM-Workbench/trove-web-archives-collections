@@ -22,6 +22,7 @@ For more information and documentation see the [Pandora collections data](https:
 | format         | ndjson                                                                                                                                                                                                                                                                  |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb'>Harvest Pandora subjects and collections</a> ([documentation](https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/)) |
 | number of rows | 149                                                                                                                                                                                                                                                                     |
+| license        | [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)                                                                                                                                                                                      |
 
 
 
@@ -34,6 +35,7 @@ For more information and documentation see the [Pandora collections data](https:
 | format         | ndjson                                                                                                                                                                                                                                                                  |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb'>Harvest Pandora subjects and collections</a> ([documentation](https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/)) |
 | number of rows | 1920                                                                                                                                                                                                                                                                    |
+| license        | [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)                                                                                                                                                                                      |
 
 ## Examples of use
 

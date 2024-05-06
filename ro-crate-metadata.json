@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-05-03",
+            "datePublished": "2024-05-06T06:22:17+00:00",
             "description": "This dataset contains details of the subject and collection groupings used by Pandora to organise archived web resource titles.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections/archive/refs/heads/main.zip"
@@ -50,61 +50,6 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
-        },
-        {
-            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook harvests Pandora's navigation hierarchy, saving the connections between subjects, collections, and titles. The datasets created can be used to assemble subject-based collections of archived websites for research.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
-            },
-            "name": "Harvest Pandora subjects and collections",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "pandora-subjects.ndjson",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 1901413,
-            "dateModified": "2024-05-02",
-            "name": "pandora-subjects.ndjson",
-            "sdDatePublished": "2024-05-03",
-            "size": 149,
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-subjects.ndjson"
-        },
-        {
-            "@id": "pandora-collections.ndjson",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 844738,
-            "dateModified": "2024-05-02",
-            "name": "pandora-collections.ndjson",
-            "sdDatePublished": "2024-05-03",
-            "size": 1920,
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
@@ -167,8 +112,69 @@
             "isPartOf": {
                 "@id": "https://glam-workbench.net"
             },
-            "name": "Harvest pandora subject collections",
+            "name": "Harvest Pandora subjects and collections",
             "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests Pandora's navigation hierarchy, saving the connections between subjects, collections, and titles.\n\nThe [Pandora](http://pandora.nla.gov.au/) selective web archive assigns archived titles to subject and collection groupings. These curated collections help researchers find archived websites relating to specific topics or events, such as [election campaigns](http://pandora.nla.gov.au/subject/6). This notebook creates two datasets containing details of all Pandora's subjects and collections. The datasets can be used to [assemble subject-based collections of archived websites for research](https://glam-workbench.net/trove-web-archives/create-datasets/).",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
+            },
+            "name": "Harvest Pandora subjects and collections",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "pandora-subjects.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 1901413,
+            "dateModified": "2024-05-02",
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "pandora-subjects.ndjson",
+            "sdDatePublished": "2024-05-06",
+            "size": 149,
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-subjects.ndjson"
+        },
+        {
+            "@id": "pandora-collections.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 844738,
+            "dateModified": "2024-05-02",
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "pandora-collections.ndjson",
+            "sdDatePublished": "2024-05-06",
+            "size": 1920,
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson"
         },
         {
             "@id": "#harvest-pandora-subject-collections_run_0",
