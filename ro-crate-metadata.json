@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-05-06",
+            "datePublished": "2024-05-07",
             "description": "This dataset contains details of the subject and collection groupings used by Pandora to organise archived web resource titles.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections/archive/refs/heads/main.zip"
@@ -86,8 +86,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 1901413,
-            "dateModified": "2024-05-02",
+            "contentSize": 1904644,
+            "dateModified": "2024-05-07",
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
@@ -102,8 +102,8 @@
                 "File",
                 "Dataset"
             ],
-            "contentSize": 844738,
-            "dateModified": "2024-05-02",
+            "contentSize": 844866,
+            "dateModified": "2024-05-07",
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
@@ -182,7 +182,7 @@
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2024-05-02",
+            "endDate": "2024-05-07",
             "instrument": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb"
             },

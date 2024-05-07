@@ -8,7 +8,7 @@ For more information and documentation see the [Pandora collections data](https:
 
 ## Dataset summary
 - [pandora-subjects.ndjson](https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-subjects.ndjson) (1.9 MB, ndjson)
-- [pandora-collections.ndjson](https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson) (844.7 kB, ndjson)
+- [pandora-collections.ndjson](https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson) (844.9 kB, ndjson)
 
 
 ## Dataset details
@@ -17,7 +17,7 @@ For more information and documentation see the [Pandora collections data](https:
 
 |                |                                                                                                                                                                                                                                                                         |
 |:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2024-05-02                                                                                                                                                                                                                                                              |
+| date harvested | 2024-05-07                                                                                                                                                                                                                                                              |
 | file size      | 1.9 MB                                                                                                                                                                                                                                                                  |
 | format         | ndjson                                                                                                                                                                                                                                                                  |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb'>Harvest Pandora subjects and collections</a> ([documentation](https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/)) |
@@ -30,8 +30,8 @@ For more information and documentation see the [Pandora collections data](https:
 
 |                |                                                                                                                                                                                                                                                                         |
 |:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2024-05-02                                                                                                                                                                                                                                                              |
-| file size      | 844.7 kB                                                                                                                                                                                                                                                                |
+| date harvested | 2024-05-07                                                                                                                                                                                                                                                              |
+| file size      | 844.9 kB                                                                                                                                                                                                                                                                |
 | format         | ndjson                                                                                                                                                                                                                                                                  |
 | created by     | <a href='https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb'>Harvest Pandora subjects and collections</a> ([documentation](https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/)) |
 | number of rows | 1920                                                                                                                                                                                                                                                                    |
